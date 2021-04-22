@@ -1,7 +1,9 @@
 
 
 ## [Basic Github Usage](#basic-github-usage) 
-[Basic Github Usage with VScode](#-Basic-Github-Usage-with-VScode)
+这里有一篇关于[github的讲解](https://backlog.com/git-tutorial/cn/intro/intro1_1.html)，图文并茂,虽然都是命令行，但是对应的操作基本在vscode能找到  
+[Basic Github Usage with VScode](#-Basic-Github-Usage-with-VScode)  
+[切换branch](#-切换branch)
 ## Basic Github Usage with VScode
 
 github可以让你管理项目,在引用别人的代码的时候也更加方便，同时如果你熟悉git，可以在**命令行**看到改动的地方，github repo页面也一直是能直观看到代码改动的地方。
@@ -28,3 +30,12 @@ github可以让你管理项目,在引用别人的代码的时候也更加方便�
     - push 到github
 
 之后你就可以在github管理该项目了
+
+## 切换branch  
+![image_branch](images/branch.png)
+branch   
+可以作为github版本控制的利器，值得频繁使用。同样的[讲解](https://backlog.com/git-tutorial/cn/stepup/stepup1_1.html)可以让你更加理解branch
+### 新增一个branch
+你可以使用git 命令进行操作，在vscode里，在 **Source control**中选择当前branch name, 当鼠标在上面悬浮几秒，你应该可以看到 **checkout branch/ tag...**，click一下，选择branch,或者创建new branch
+
+
