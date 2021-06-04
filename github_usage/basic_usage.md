@@ -54,7 +54,8 @@ All tutorial and API detail can be found in [API](https://git-scm.com/docs) and 
 [Remote and local, Github and local Git](#Remote-and-local,-Github-and-local-Git)  
 [Commits](#Commits)  
 [Reset and Revert Git commit](#Reset-and-Revert-Git-commit)  
-[Git Rebase](#Git-Rebase)
+[Git Rebase](#Git-Rebase)  
+[Errors and solutions](#Errors-and-solutions)
 
 ### Before start
 * It is better to use `ssh` instead of `http` for cloning repo. Otherwise Git will always ask you about the id and password. See this [answer](https://docs.github.com/en/github/getting-started-with-github/getting-started-with-git/why-is-git-always-asking-for-my-password) for detail. 
@@ -104,3 +105,6 @@ Basically `git rebase` has two scenrios.
 ``git rebase -i HEAD~4`` merges 4 latest commits
 * Merge branches.  
 ``git reabse BRANCH_NAME``
+
+### Errors and solutions
+* `Git Push Error: insufficient permission for adding an object to repository database`, see this [answer](https://stackoverflow.com/questions/6448242/git-push-error-insufficient-permission-for-adding-an-object-to-repository-datab)
