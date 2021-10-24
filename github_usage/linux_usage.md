@@ -123,6 +123,7 @@ Grep - Global regular expression print
 ### Nano
 
 ### working with archives
+[tar command](https://www.geeksforgeeks.org/tar-command-linux-examples/)
 - tar file: compression files
     - `tar caf myfiels.tar.gz Exercise\ Files/` tar files. 
     - `tar xf myfiles.tar.gz -C unpack_directory` : untar files in some place
